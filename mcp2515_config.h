@@ -15,36 +15,36 @@ typedef enum {
 } mcp2515_err_t;
 
 typedef enum {
-    MCP2515_TX_BUFFER_NUM_0 = 0x00,
-    MCP2515_TX_BUFFER_NUM_1,
-    MCP2515_TX_BUFFER_NUM_2,
-} mcp2515_tx_buffer_num_t;
+    MCP2515_TXB_NUM_0 = 0x00,
+    MCP2515_TXB_NUM_1,
+    MCP2515_TXB_NUM_2,
+} mcp2515_txb_num_t;
 
 typedef enum {
-    MCP2515_RX_BUFFER_NUM_0 = 0x00,
-    MCP2515_RX_BUFFER_NUM_1,
-} mcp2515_rx_buffer_num_t;
+    MCP2515_RXB_NUM_0 = 0x00,
+    MCP2515_RXB_NUM_1,
+} mcp2515_rxb_num_t;
 
 typedef enum {
-    MCP2515_RX_FILTER_NUM_0 = 0x00,
-    MCP2515_RX_FILTER_NUM_1,
-    MCP2515_RX_FILTER_NUM_2,
-    MCP2515_RX_FILTER_NUM_3,
-    MCP2515_RX_FILTER_NUM_4,
-    MCP2515_RX_FILTER_NUM_5,
-} mcp2515_rx_filter_num_t;
+    MCP2515_RXF_NUM_0 = 0x00,
+    MCP2515_RXF_NUM_1,
+    MCP2515_RXF_NUM_2,
+    MCP2515_RXF_NUM_3,
+    MCP2515_RXF_NUM_4,
+    MCP2515_RXF_NUM_5,
+} mcp2515_rxf_num_t;
 
 typedef enum {
-    MCP2515_RX_MASK_NUM_0 = 0x00,
-    MCP2515_RX_MASK_NUM_1,
-} mcp2515_rx_mask_num_t;
+    MCP2515_RXM_NUM_0 = 0x00,
+    MCP2515_RXM_NUM_1,
+} mcp2515_rxm_num_t;
 
 typedef enum {
-    MCP2515_RX_BF_STATE_DISABLED = 0b000,
-    MCP2515_RX_BF_STATE_BUFFER_INT = 0b110,
-    MCP2515_RX_BF_STATE_LOW = 0b100,
-    MCP2515_RX_BF_STATE_HIGH = 0b101,
-} mcp2515_rx_bf_state_t;
+    MCP2515_RXBF_STATE_DISABLED = 0b000,
+    MCP2515_RXBF_STATE_BUFFER_INT = 0b110,
+    MCP2515_RXBF_STATE_LOW = 0b100,
+    MCP2515_RXBF_STATE_HIGH = 0b101,
+} mcp2515_rxbf_state_t;
 
 typedef enum {
     MCP2515_REG_ADDRESS_RXF0SIDH = 0x00,
