@@ -75,7 +75,7 @@ mcp2515_err_t mcp2515_get_txbctrl_reg(mcp2515_t const* mcp2515,
 
     uint8_t data;
 
-        return MCP2515_ERR_OK;
+    return MCP2515_ERR_OK;
 }
 
 mcp2515_err_t mcp2515_set_txbctrl_reg(mcp2515_t const* mcp2515,
